@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "644140894324",
+    "firebase_url": "https://proyectodam-69a0f.firebaseio.com",
+    "project_id": "proyectodam-69a0f",
+    "storage_bucket": "proyectodam-69a0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644140894324:android:8ba2e34f6e1e1dc0a5e921",
+        "android_client_info": {
+          "package_name": "com.example.damtoletaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644140894324-5jjvrp6memn1buug9efla01e48hkib10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlxw13A6fPkoVXZoESU-NwISuRq5yfQ5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644140894324-5jjvrp6memn1buug9efla01e48hkib10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644140894324:android:313596a4cf950f0ca5e921",
+        "android_client_info": {
+          "package_name": "com.example.toletaxifinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644140894324-5jjvrp6memn1buug9efla01e48hkib10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlxw13A6fPkoVXZoESU-NwISuRq5yfQ5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644140894324-5jjvrp6memn1buug9efla01e48hkib10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

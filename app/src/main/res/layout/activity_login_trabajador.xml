@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginTrabajador">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="274dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="70dp"
+        android:layout_gravity="bottom"
+        android:background="#1F74B8"
+        android:onClick="btnEntrarT"
+        android:text="Entrar"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="112dp"
+        android:onClick="onClickRestablecer"
+        android:text="Restablecer contraseña"
+        android:textColor="#03A9F4"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/editTxtPaswT"
+        android:layout_width="241dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="52dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtEmailT" />
+
+    <EditText
+        android:id="@+id/edtTxtEmailT"
+        android:layout_width="243dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="41dp"
+        android:drawableLeft="@drawable/ic_mail_black_24dp"
+        android:ems="10"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="80dp"
+        android:text="Si no estas registrado..."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtPaswT" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="80dp"
+        android:autoLink="phone"
+        android:onClick="onClickTxtvRegistro"
+        android:text="Registrate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#62AFEC"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtPaswT" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="77dp"
+        android:text="TRABAJADOR"
+        android:textColor="#070707"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
